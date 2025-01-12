@@ -21,7 +21,7 @@ public class SalaryAccountServiceImpl implements SalaryAccountService {
     @Override
     public void createAccount(Employee employee) {
 
-//        if(employee.getName().equals("Anuj")) throw new RuntimeException("Anuj is not allowed");
+//        if(employee.getName().equals("mohammmed")) throw new RuntimeException("mohammed is not allowed");
 
         SalaryAccount salaryAccount = SalaryAccount.builder()
 //                .employee(employee)
